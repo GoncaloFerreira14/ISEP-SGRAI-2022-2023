@@ -1,0 +1,11 @@
+Model Information:
+* title:	GAZ AA Truck
+* source:	https://sketchfab.com/3d-models/gaz-aa-truck-6695044acf2e4b1592d61a4519f5b52a
+* author:	rajibkc (https://sketchfab.com/rajibkc)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "GAZ AA Truck" (https://sketchfab.com/3d-models/gaz-aa-truck-6695044acf2e4b1592d61a4519f5b52a) by rajibkc (https://sketchfab.com/rajibkc) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

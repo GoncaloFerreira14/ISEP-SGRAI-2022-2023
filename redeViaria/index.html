@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rede Viária Sgrai</title>
+
+    
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="./styles.css" />
+    <div id="parent">
+      <div id="views-panel">
+        <table class="views dropdown-dark">
+          <tr>
+            <td>
+              <label class="label">Preferred view:</label>
+              <select name="two" class="view" id="Orbitselector">
+                <option value="selected">Center</option>
+                <option value="truck">Truck</option> 
+                <option value="1">Arouca</option>
+                <option value="2">Espinho</option>
+                <option value="3">Gondomar</option>
+                <option value="4">Maia</option>
+                <option value="5">Matosinhos</option>
+                <option value="6">Oliveira de Azeméis</option>
+                <option value="7">Paredes</option>
+                <option value="8">Porto</option>
+                <option value="9">Póvoa de Varzim</option>
+                <option value="10">Santa Maria da Feira</option>
+                <option value="11">Santo Tirso</option>
+                <option value="12">São João da Madeira</option>
+                <option value="13">Trofa</option>
+                <option value="14">Vale de Cambra</option>
+                <option value="15">Valongo</option>
+                <option value="16">Vila do Conde</option>
+                <option value="17">Vila Nova de Gaia</option>
+                <option value="18">Camião</option>
+              </select>
+            </td>
+            <td>
+              <input type="button" id="reset" value="Reset view" />
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <label class="label">Origin:</label>
+              <select name="two" class="view" id="roundaboutOrigin">
+                <option value="selected">-- default --</option>
+                <option value="1">Arouca</option>
+                <option value="2">Espinho</option>
+                <option value="3">Gondomar</option>
+                <option value="4">Maia</option>
+                <option value="5">Matosinhos</option>
+                <option value="6">Oliveira de Azeméis</option>
+                <option value="7">Paredes</option>
+                <option value="8">Porto</option>
+                <option value="9">Póvoa de Varzim</option>
+                <option value="10">Santa Maria da Feira</option>
+                <option value="11">Santo Tirso</option>
+                <option value="12">São João da Madeira</option>
+                <option value="13">Trofa</option>
+                <option value="14">Vale de Cambra</option>
+                <option value="15">Valongo</option>
+                <option value="16">Vila do Conde</option>
+                <option value="17">Vila Nova de Gaia</option>
+              </select>
+            </td>
+            <td>
+              <label class="label">Destination:</label>
+              <select name="two" class="view" id="roundaboutDestiny">
+                <option value="selected">-- default --</option>
+                <option value="1">Arouca</option>
+                <option value="2">Espinho</option>
+                <option value="3">Gondomar</option>
+                <option value="4">Maia</option>
+                <option value="5">Matosinhos</option>
+                <option value="6">Oliveira de Azeméis</option>
+                <option value="7">Paredes</option>
+                <option value="8">Porto</option>
+                <option value="9">Póvoa de Varzim</option>
+                <option value="10">Santa Maria da Feira</option>
+                <option value="11">Santo Tirso</option>
+                <option value="12">São João da Madeira</option>
+                <option value="13">Trofa</option>
+                <option value="14">Vale de Cambra</option>
+                <option value="15">Valongo</option>
+                <option value="16">Vila do Conde</option>
+                <option value="17">Vila Nova de Gaia</option>
+              </select>
+            </td>
+            <td>
+              <input type="button" id="goTo" value="Go" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Oops! You did it again...</p>
+        <img src="./assets/textures/crash.gif" alt="Loading GIF">
+      </div>
+    
+    </div>
+
+  </body>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "../three.js-master/build/three.module.js",
+        "cannon-es": "../node_modules/cannon-es/dist/cannon-es.js"
+      }
+    }
+  </script>
+  <script type="module">
+    import "./script.js";
+  </script>
+</html>
